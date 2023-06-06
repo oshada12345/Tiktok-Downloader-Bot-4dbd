@@ -9,7 +9,7 @@ def tk(link):
 
     headers = {
         "X-RapidAPI-Host": "tiktok-downloader-download-tiktok-videos-without-watermark.p.rapidapi.com",
-        "X-RapidAPI-Key": "5e086dc085mshd0d98d3fe50d5ecp19c3e8jsnf3bd64e931ff"
+        "X-RapidAPI-Key": "3f7b85e600msh163785d28acda05p113d81jsncbb31efb5ffc"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
